@@ -1,0 +1,15 @@
+{
+  "name": "cucumber-js-esm",
+  "version": "1.0.0",
+  "description": "Example of an esm project with cucumber-js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.1"
+  }
+}
