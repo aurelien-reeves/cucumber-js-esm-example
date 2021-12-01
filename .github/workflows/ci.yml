@@ -1,0 +1,14 @@
+name: install-test
+
+on: [push, pull_request]
+
+jobs:
+  install-test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: 16.x
+    - run: npm i -g npm@7
+    - run: npm install-ci-test
